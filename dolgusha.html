@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/shablon-styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image" href="assets/images/shablons-icon.png" />
+    <title>Выбор цветовой схемы</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-lg-4 d-flex align-items-center">
+            <img
+              src="./assets/images/header-logo.svg"
+              alt=""
+              style="height: 50px"
+            />
+          </div>
+          <div
+            class="
+              col-lg-4
+              d-flex d-none d-lg-flex d-sm-none
+              justify-content-center
+              align-items-center
+              flex-column
+              p-0
+            "
+          >
+            <nav class="header-nav">
+              <ul class="header-list">
+                <li class="header-item">
+                  <a href="./index.html" class="header-link">Главная</a>
+                </li>
+                <li class="header-item">
+                  <a href="./shablons.html" class="header-link">
+                    Выбор шаблонов
+                  </a>
+                </li>
+                <li class="header-item">
+                  <a href="#about" class="header-link">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div
+            class="col-6 col-lg-4 d-flex align-items-center justify-content-end"
+          >
+            <a href="./works/new_shablon/index.htm" class="header-button">
+              <img src="./assets/images/plus-button.svg" alt="" /> Создать сайт
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="layout__box">
+      <div class="container">
+        <div class="layout__wrap">
+          <div class="row">
+            <div class="subheader d-flex align-items-center">
+              <h1>Редактирование шаблона «Преимущества»</h1>
+              <a href="./shablons.html" class="d-flex align-items-center">
+                <h2>Вернуться к выбору шаблонов</h2>
+                <img src="./assets/images/back-arrow.svg" alt="" />
+              </a>
+            </div>
+            <div class="col-2 d-flex">
+              <div
+                class="colors d-flex justify-content-center align-items-center"
+              >
+                <input type="radio" id="c1" name="c" value="red" />
+                <input type="radio" id="c2" name="c" value="yellow" />
+                <input type="radio" id="c3" name="c" value="green" />
+                <input type="radio" id="c4" name="c" value="pink" />
+                <input type="radio" id="c5" name="c" value="blue" checked />
+                <input type="radio" id="c6" name="c" value="purple" />
+                <input type="radio" id="c7" name="c" value="plus" />
+
+                <label for="c1" title="red"></label>
+                <label for="c2" title="yellow"></label>
+                <label for="c3" title="green"></label>
+                <label for="c4" title="pink"></label>
+                <label for="c5" title="blue"></label>
+                <label for="c6" title="purple"></label>
+                <label for="c7" title="plus"></label>
+
+                <div class="theme-wrap">
+                  <div class="red-theme">
+                    <img src="./assets/images/preview-dolgusha-red.png" />
+                    <a
+                      class="gobutton red"
+                      href="./works/dolgusha/red/index.html"
+                    >
+                      <span>Выбрать красный цвет</span>
+                      <img src="./assets/images/gobutton-arrow.svg" alt="" />
+                    </a>
+                  </div>
+                  <div class="yellow-theme">
+                    <img src="./assets/images/preview-dolgusha-yellow.png" />
+                    <a
+                      class="gobutton yellow"
+                      href="./works/dolgusha/yellow/index.html"
+                    >
+                      <span>Выбрать желтый цвет</span>
+                      <img src="./assets/images/gobutton-arrow.svg" alt="" />
+                    </a>
+                  </div>
+                  <div class="green-theme">
+                    <img src="./assets/images/preview-dolgusha-green.png" />
+                    <a
+                      class="gobutton green"
+                      href="./works/dolgusha/green/index.html"
+                    >
+                      <span>Выбрать зелёный цвет</span>
+                      <img src="./assets/images/gobutton-arrow.svg" alt="" />
+                    </a>
+                  </div>
+                  <div class="pink-theme">
+                    <img src="./assets/images/preview-dolgusha-pink.png" />
+                    <a
+                      class="gobutton pink"
+                      href="./works/dolgusha/pink/index.html"
+                    >
+                      <span>Выбрать розовый цвет</span>
+                      <img src="./assets/images/gobutton-arrow.svg" alt="" />
+                    </a>
+                  </div>
+                  <div class="blue-theme">
+                    <img src="./assets/images/preview-dolgusha-blue.png" />
+                    <a
+                      class="gobutton blue"
+                      href="./works/dolgusha/blue/index.html"
+                    >
+                      <span>Выбрать синий цвет</span>
+                      <img src="./assets/images/gobutton-arrow.svg" alt="" />
+                    </a>
+                  </div>
+                  <div class="purple-theme">
+                    <img src="./assets/images/preview-dolgusha-purple.png" />
+                    <a
+                      class="gobutton purple"
+                      href="./works/dolgusha/purple/index.html"
+                    >
+                      <span>Выбрать фиолетовый цвет</span>
+                      <img src="./assets/images/gobutton-arrow.svg" alt="" />
+                    </a>
+                  </div>
+                  <div class="plus-theme">
+                    В разработке..
+                    <a class="gobutton" href="#">
+                      <span>Выбрать цвет</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer style="margin-top: 120px">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-lg-4 d-flex align-items-center">
+            <img
+              src="./assets/images/header-logo.svg"
+              alt=""
+              style="height: 50px"
+            />
+          </div>
+          <div
+            class="
+              col-lg-4
+              d-flex d-none d-lg-flex d-sm-none
+              justify-content-center
+              align-items-center
+              flex-column
+              p-0
+            "
+          >
+            <nav class="header-nav">
+              <ul class="header-list">
+                <li class="header-item">
+                  <a href="./index.html" class="header-link">Главная</a>
+                </li>
+                <li class="header-item">
+                  <a href="./shablons.html" class="header-link"
+                    >Выбор шаблонов</a
+                  >
+                </li>
+                <li class="header-item">
+                  <a href="#" class="header-link">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div
+            class="col-6 col-lg-4 d-flex align-items-center justify-content-end"
+          >
+            <span class="rules">Все права защищены</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
